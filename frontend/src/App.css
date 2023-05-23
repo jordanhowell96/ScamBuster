@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+:root {
+  --color-primary-0: #31c6e4;
+  --color-primary-hover: #6ad1e6;
+  --color-light: #d4f9ff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+.App {
+  text-align: center;
+}
+
+nav {
+  padding-left: 10%;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+  text-align: left;
+  background-color: var(--color-primary-0);
+}
+
+nav > a {
+  margin-right: 20px;
+}
+
+a {
+  color: blue;
+}
+
+a:visited {
+  color: blue;
+}
+
+button {
+  font-size: 30px;
+  padding: 10px;
+  margin: 20px;
+  width: 300px;
+  background-color: var(--color-primary-0);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px lightgrey;
+}
+
+button:hover{
+  background-color: var(--color-primary-hover);
+}
+
+.red-button {
+  background-color: red;
+}
+
+.red-button:hover{
+  background-color: rgb(253, 81, 81);
+}
+
+label {
+  display: block;
+  margin-bottom: 2%;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 1% 5%;
+  border-spacing: 0px;
+}
+
+caption {
+  text-align: left;
+}
+
+th {
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+tr {
+  text-align: left;
+}
+
+input {
+  font-size: 24px;
+  background-color: var(--color-light);
+}
+
+header {
+  padding-left: 10%;
+  text-align: left; 
+}
+
+header > h1 {
+  font-family: 'Fugaz One', cursive;
+  font-size: 68px;
+  color: var(--color-primary-0);
+  margin: 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.block {
+  display: block;
+}
+
+.remove-account-button {
+  margin-bottom: 2%;
+}
+
+.advanced-settings-toggle {
+  display: block;
+  margin-bottom: 2%;
+  font-size: 18px;
+}
