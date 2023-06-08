@@ -16,7 +16,7 @@ function AccountExamplePage() {
                 
                 <article>
 
-                    <table>
+                    <table className="account-table">
 
                         <caption><h3>Your Monitored Accounts</h3></caption>
 
@@ -42,6 +42,7 @@ function AccountExamplePage() {
             </section>
             
             <Link to="/linkAccount"><button>Link New Account</button></Link>
+            <Link to="/flaggedMessagesExample"><button>Flagged Messages</button></Link>
         </>
     );
 }

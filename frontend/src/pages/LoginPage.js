@@ -16,7 +16,8 @@ function LoginPage() {
                 <label htmlFor="password">Password</label>
                 
                 <Link className="block" to="/account"><button>Login</button></Link>
-                <Link to="/createAccount">Create Account</Link>
+                <Link className="block" to="/createAccount">Create Account</Link>
+                <Link to="/forgotPassword">Forgot Password?</Link>
             </form>
         </>
     );

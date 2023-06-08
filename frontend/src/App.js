@@ -9,6 +9,9 @@ import LinkAccountPage from './pages/LinkAccountPage.js'
 // example pages
 import AccountExamplePage from './tempPages/AccountExamplePage.js'
 import EditAccountExamplePage from './tempPages/EditAccountExamplePage.js'
+import FlaggedMessagesExamplePage from './tempPages/FlaggedMessagesExamplePage.js'
+import ForgotPasswordPage from './pages/ForgotPasswordPage';
+import ResetEmailSentPage from './pages/ResetEmailSentPage';
 
 function App() {
     return (
@@ -23,10 +26,13 @@ function App() {
                         <Route path="/" element={<HomePage/>} />
                         <Route path="/login" element={<LoginPage/>} />
                         <Route path="/createAccount" element={<CreateAccountPage/>} />
+                        <Route path="/forgotPassword" element={<ForgotPasswordPage/>} />
+                        <Route path="/resetEmailSent" element={<ResetEmailSentPage/>} />
                         <Route path="/account" element={<AccountPage/>} />
                         <Route path="/linkAccount" element={<LinkAccountPage/>} />
                         <Route path="/accountExample" element={<AccountExamplePage/>} />
                         <Route path="/editAccountExample" element={<EditAccountExamplePage/>} />
+                        <Route path="/flaggedMessagesExample" element={<FlaggedMessagesExamplePage/>} />
                     </Routes>   
                 </main>
                 
